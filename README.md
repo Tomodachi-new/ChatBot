@@ -1,0 +1,2 @@
+# ChatBot
+A ChatBot Discord
