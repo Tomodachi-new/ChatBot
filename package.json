@@ -1,0 +1,31 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "Tomodachi",
+  "version": "1.0.0",
+  "description": "Randomly.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tomodachi-new/tomodachi-bot.git"
+  },
+  "author": "Tomodachi#9471",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tomodachi-new/tomodachi-bot/issues"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "homepage": "https://github.com/Tomodachi-new/tomodachi-bot#readme", 
+  "dependencies": {
+    "discord.js": "^12.5.2",
+    "alexa-bot-api": "^0.2.1",
+    "node-fetch": "^2.6.1", 
+    "express": "^4.17.1"
+  }
+}
